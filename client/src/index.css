@@ -1,0 +1,44 @@
+.card-action {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.input-field input[type]:not(.browser-default):not([readonly]),
+.input-field textarea.materialize-textarea:not([readonly]),
+.input-field .select-wrapper input.select-dropdown {
+  border-bottom: 1px solid #424242;
+  box-shadow: none;
+}
+
+.input-field input[type]:not(.browser-default):focus:not([readonly]),
+.input-field textarea.materialize-textarea:focus:not([readonly]),
+.input-field .select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+.input-field input[type]:not(.browser-default):not([readonly])::placeholder,
+.input-field textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #f7f7ff;
+}
+
+.input-field input[type]:not(.browser-default):not([readonly]) + label,
+.input-field textarea.materialize-textarea:not([readonly]) + label,
+.input-field .select-wrapper + label {
+  color: #424242;
+}
+
+.input-field input[type]:not(.browser-default):focus:not([readonly]) + label {
+  color: #eee;
+}
+
+.nav-wrapper {
+  padding: 0 2rem;
+}
+
+.question-card .card-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
