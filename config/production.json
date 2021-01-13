@@ -1,6 +1,5 @@
 {
-  "port": 5000,
+  "port": 80,
   "jwtSecret": "nummy qr quest",
-  "mongoUri": "mongodb+srv://nummyn0rih:malst22@cluster0.ykyum.mongodb.net/quests?retryWrites=true&w=majority",
-  "baseUrl": "http://localhost:5000"
+  "mongoUri": "mongodb+srv://nummyn0rih:malst22@cluster0.ykyum.mongodb.net/quests?retryWrites=true&w=majority"
 }
