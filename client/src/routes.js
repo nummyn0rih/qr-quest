@@ -23,6 +23,9 @@ export const useRoutes = (isAuthenticated) => {
           <ResultPage />
         </Route>
         <Redirect to="/questions" />
+        {/* <Route path="/">
+          <Navigate replace to="/questions" />
+        </Route> */}
       </Switch>
     );
   }
